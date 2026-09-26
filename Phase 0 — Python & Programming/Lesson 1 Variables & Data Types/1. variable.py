@@ -5,3 +5,8 @@ height = 5.9
 
 print(type(age))
 print(type(is_learning))
+
+
+age2= age
+
+print(age2)
