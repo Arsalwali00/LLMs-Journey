@@ -47,3 +47,25 @@ print(list1)
 
 print(list1.reverse())
 
+list1.insert(1,6)
+print(list1)
+
+list1.remove(3)
+print(list1)
+
+list1.pop(2)
+print(list1)
+
+
+#Tuples in python
+# tuple is imuatable (we can't change them)
+
+tup = (1,2,3,4,5)
+print(tup)
+
+
+#tuple method
+
+print(tup.index(2))
+
+print(tup.count(1))
